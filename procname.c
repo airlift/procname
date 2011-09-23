@@ -1,7 +1,7 @@
 #include <sys/prctl.h>
 #include <stdlib.h>
 
-void __attribute__ ((constructor)) procname_init()
+static void __attribute__ ((constructor)) procname_init()
 {
    const char *name;
    if ((name = getenv("PROCNAME"))) {
