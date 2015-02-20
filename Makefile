@@ -5,7 +5,7 @@ TARGET=libprocname.so
 .PHONY: all clean
 
 all:
-	gcc $(CFLAGS) -o $(TARGET) procname.c
+	$(CC) $(CFLAGS) -o $(TARGET) procname.c
 	chmod 644 $(TARGET)
 
 clean:
