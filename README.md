@@ -7,3 +7,9 @@
 Run Java with the `LD_PRELOAD` and `PROCNAME` environment variables set:
 
     LD_PRELOAD=/path/to/libprocname.so PROCNAME=hello java -jar foo.jar
+
+# License
+
+This software is so simple, basically one line of code, that it hardly
+warrants a copyright or license. You may consider this software to be
+public domain, or use it under the terms of the MIT license.
